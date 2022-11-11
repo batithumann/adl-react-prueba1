@@ -1,0 +1,45 @@
+body {
+  background-color: #282a36 !important;
+  color: #f8f8f2 !important;
+}
+
+footer {
+  background-color: #383a59;
+  border-top: 1px solid #f8f8f2;
+  font-size: large;
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+footer a:hover,
+footer a:focus,
+footer a:active {
+  color: #bd93f9;
+  text-decoration: underline;
+  text-underline-offset: 0.4em;
+  text-decoration-thickness: 0.1em;
+}
+
+footer i {
+  font-size: x-large;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+}
+
+.header {
+  height: 16vw;
+  background-image: url("https://cdn11.bigcommerce.com/s-3b5vpig99v/product_images/uploaded_images/category-decoration-mh2-singles-2021-06-02.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.App {
+  text-align: center;
+}
